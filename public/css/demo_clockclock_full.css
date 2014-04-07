@@ -1,0 +1,5 @@
+body{background: #f39c12;}
+#wrapper{position: relative;margin: 0px auto;width: 450px;}
+#bg, #fg{position: absolute;margin-top: 4rem;}
+#bg{z-index: 0; height: auto;}
+#fg{z-index: 1; height: auto;}

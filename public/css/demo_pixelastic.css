@@ -1,0 +1,26 @@
+#democontain{
+  position: relative;
+  margin: 15px auto 0px auto;
+  width: 100%;
+  height: 300px;
+}
+#samplewrap{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.sample{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+#controllist{
+  list-style: none;
+  padding-left: 0;
+}
+#controllist li{
+  display: inline;
+}

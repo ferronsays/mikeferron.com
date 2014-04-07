@@ -1,0 +1,23 @@
+name: Mike Ferron
+markdown: redcarpet
+pygments: true
+permalink: /:categories/:title
+relative_permalinks: false
+
+# Setup
+title:            Mike Ferron
+tagline:          ''
+description:      'I&#39;m a programmer living in Minneapolis, Minnesota, working as a web and mobile developer at <a href="http://www.korterra.com/" target="_blank">Korterra Inc</a>. You can find me on the internet <a href="http://www.twitter.com/ferronsays" target="_blank">tweeting</a> and making things on <a href="http://codepen.io/ferronsays" target="_blank">CodePen</a> and <a href="https://github.com/ferronsays" target="_blank">GitHub</a>. Take a look at some of <a href="/projects">my work</a>, stalk me on <a href="http://www.linkedin.com/in/mferron" target="_blank">LinkedIn</a>, or say hello via <a href="mailto:hello@mikeferron.com" target="_blank">email</a>.'
+url:              http://www.mikeferron.com
+
+author:
+  name:           'Mike Ferron'
+  url:            https://twitter.com/ferronsays
+
+#paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:

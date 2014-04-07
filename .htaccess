@@ -1,0 +1,6 @@
+ErrorDocument 404     /404.html
+redirect /experiments/particles /projects/fullscreen/canvas-particles
+redirect /experiments/planet /projects/fullscreen/pseudo-3d-planet
+redirect /experiments/colorwipe /projects/fullscreen/color-wipe
+redirect /experiments/clockfont /projects/clockfont
+redirect /experiments/clockclock /projects/fullscreen/clockclock

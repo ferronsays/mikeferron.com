@@ -3,7 +3,7 @@ layout: project
 title:  "Pixelastic.js"
 date:   2014-01-01 00:00:45
 categories: projects
-description: A jQuery plugin for reactive images.
+description: A jQuery plugin for reactive&nbsp;images.
 thumbnail: beach.jpg
 extra_css:
   - demo_pixelastic.css

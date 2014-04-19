@@ -3,7 +3,7 @@ layout: project
 title:  "ClockFont"
 date:   2014-01-01 00:00:51
 categories: projects
-description:  Text made of clocks.  A JavaScript and Canvas art project.
+description:  Text made of clocks.  A JavaScript and Canvas art&nbsp;project.
 thumbnail: clockfont.png
 ---
 ClockFont is a JavaScript and Canvas experiment inspired by [Clock typefont II][clockfont-site] by Humans Since 1982.

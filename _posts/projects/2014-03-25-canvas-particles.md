@@ -3,7 +3,7 @@ layout: project
 title:  "Canvas-Particles"
 date:   2014-01-01 00:00:58
 categories: projects
-description: An HTML5, JavaScript, and Canvas particle engine.
+description: An HTML5, JavaScript, and Canvas particle&nbsp;engine.
 thumbnail: canvasparticles.png
 extra_js:
   - Vector2D.min.js
@@ -13,10 +13,13 @@ extra_js:
   - demo/particles.js
 ---
 <canvas id="c" style="background: #333;"></canvas>
-
+<p class="linkContainer">
+    <a href="/projects/fullscreen/canvas-particles">Demo</a>
+    <a href="http://github.com/ferronsays/Canvas-Particles">Download</a>
+</p>
 Canvas-Particles is a highly customizable JavaScript 2D particle engine. It's particularly useful for HTML5 games.  It is showcased on [Chrome Experiments][chrome-ex].
 
-The engine generates a large amount of objects --particles-- and simulates organic systems with them.  It can be used to generate a range of effects like fire, smoke, explosions, sparks, snow, and more.
+The engine generates a large amount of objects --particles-- and simulates organic systems with them.  It can be used to generate a range of effects like fire, smoke, explosions, sparks, snow, and&nbsp;more.
 
 ### Documentation ###
 For now, the [source][emitter-source] illustrates all the available options with their descriptions and default values.
@@ -50,17 +53,17 @@ var emitter = new ParticleEmitter({
 });
 {% endhighlight %}
 
-It is much simpler than it looks.  Apart from the visual options, all an emitter needs is a canvas context and something to call its <code>update(dt)</code> and <code>draw()</code> methods.
+It is much simpler than it looks.  Apart from the visual options, all an emitter needs is a canvas context and something to call its <code>update(dt)</code> and <code>draw(context)</code>&nbsp;methods.
 
 ### Demo ###
-Check out the [fullscreen editor demo][particles-full] to design unique emitters.  Please note that the editor is not optimized for mobile devices.
+Check out the [fullscreen editor demo][particles-full] to play around and design unique emitters.  (The editor is not optimized for mobile devices.)
 
-Please note that the editor differs slightly from the released code.  This is partly for ease of use with the dat-gui controller.
+The editor also differs slightly from the released code.  This is for ease of use with the dat-gui&nbsp;controller.
 
 ### Dependencies ###
-I've written the included example with [Pollock.js][pollock-mf] ([GitHub][pollock-gh]) but it could easily be modified not to be.  Feel free to contact me on [twitter][twitter-mf] if you'd like to use this project without Pollock.js, and have questions.
+I've written the included example with [Pollock.js][pollock-mf] ([GitHub][pollock-gh]) but it could easily be modified not to.  Feel free to contact me on [twitter][twitter-mf] if you'd like to use this project without Pollock.js, and have questions on how to do&nbsp;so.
 
-Canvas-Particles also uses [Vector2D.js][vector-gh], a simple 2D vector class.
+Canvas-Particles also uses [Vector2D.js][vector-gh], a simple 2D vector&nbsp;class.
 
 ### Download ###
 You can download it, tell me about bugs, or make a feature request at the [GitHub repo][particles-gh].
